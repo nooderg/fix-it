@@ -1,4 +1,4 @@
-package main
+git ppackage main
 
 import (
 	"fmt"
@@ -12,13 +12,10 @@ func main() {
 		fmt.Fprintf(w, "Hello, World!")
 	})
 
-<<<<<<< HEAD
 	http.HandleFunc("/register", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "todo")
-=======
 	http.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "wip")
->>>>>>> main
 	})
 
 	http.ListenAndServe(":8080", nil)
