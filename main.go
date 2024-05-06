@@ -18,7 +18,11 @@ func main() {
 		fmt.Fprintf(w, "wip")
 	})
 
+<<<<<<< HEAD
 	http.HandleFunc("/update", func(w http.ResponseWriter, r *http.Request) {
+=======
+	http.HandleFunc("/delete", func(w http.ResponseWriter, r *http.Request) {
+>>>>>>> private-key
 		fmt.Fprintf(w, "wip")
 	})
 
